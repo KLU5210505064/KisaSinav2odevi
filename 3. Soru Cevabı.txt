@@ -1,0 +1,49 @@
+     
+
+
+    VERI YAPILARI VE ALGORITMALAR KISA SINAV 2 ÖDEVI
+
+
+
+ 3. Soru)
+
+ Yýðýnn(Stack) ve Kuyruk (Queue) nedir? Aralarýndaki farklýlýklar nelerdir? Açýklayýnýz.
+
+
+Cevap:
+
+ Yýðýn (Stack):
+
+Yýðýn, son giren ilk çýkar (Last In First Out - LIFO-) prensibine göre çalýþýr.
+Elemanlar yýðýna üst üste eklenir ve en son eklenen eleman en üstte bulunur. (top)
+Elemanlar sadece en üstten çýkarýlabilir ve altta kalan elemanlara eriþim saðlanmaz.
+Yýðýn, bir yýðýndan eleman çýkarmak (pop) veya eklemek (push) için kullanýlýr.
+Örneðin => fonksiyon çaðrýlarý, derleme iþlemleri ve geri alma (undo) iþlemleri gibi senaryolarda da yýðýn kullanýlabilir.
+
+Kuyruk (Queue):
+
+Kuyruk, ilk giren ilk çýkar (First In First Out - FIFO-) prensibine göre çalýþýr.
+Elemanlar kuyruðun sonuna eklenir ve en önce eklenen eleman en baþta (front) bulunur.
+Elemanlar sadece kuyruðun baþýndan çýkarýlabilir ve sona eklenen elemanlara eriþim saðlanamaz.
+Kuyruk, bir kuyruktan eleman çýkarmak (dequeue) veya eklemek (enqueue) için kullanýlýr.
+Örnegin, iþlem sýralamalarý, müþteri hizmetleri sýralamasý ve veri akýþý gibi senaryolarda kuyruk kullanýlabilir.
+
+Yýðýn ve Kuyruk arasýndaki farklýlýklar:
+
+Ekleme ve Çýkarmada Sýralama: Yýðýn son giren ilk çýkar (LIFO) prensibine göre çalýþýrken, kuyruk ilk giren ilk çýkar (FIFO) prensibine göre çalýþýr.
+Eriþim: Yýðýnda, sadece en üstteki elemana eriþilebilir ve çýkarýlabilir. Kuyrukta ise, sadece en baþtaki elemana eriþilebilir ve çýkarýlabilir.
+Ýþlem Sýrasý: Yýðýnda eklenen en son eleman, çýkartýlan ilk elemandýr. Kuyrukta ise eklenen en önceki eleman, çýkartýlan ilk elemandýr.
+Uygulama Senaryolarý: Yýðýn, geri alma iþlemleri, derinlik öncelikli arama (Depth-First Search) gibi senaryolarda kullanýlýrken, kuyruk iþlem sýralamalarý, veri akýþý gibi senaryolarda kullanýlýr.
+Bu farklýlýklar, yýðýn ve kuyruðun farklý kullaným senaryolarýna sahip olmalarýný saðlar ve hangi veri yapýsýnýn tercih edileceðini belirleyen önemli bir faktördur.
+
+
+
+
+
+
+
+
+
+
+
+
