@@ -1,40 +1,37 @@
      
 
 
-    VERI YAPILARI VE ALGORITMALAR KISA SINAV 2 ÖDEVI
+    VERI YAPILARI VE ALGORITMALAR KISA SINAV 2 Ã–DEVI
 
 
 
  3. Soru)
 
- Yığınn(Stack) ve Kuyruk (Queue) nedir? Aralarındaki farklılıklar nelerdir? Açıklayınız.
+ YÄ±ÄŸÄ±nn(Stack) ve Kuyruk (Queue) nedir? AralarÄ±ndaki farklÄ±lÄ±klar nelerdir? AÃ§Ä±klayÄ±nÄ±z.
 
+ YÄ±ÄŸÄ±n (Stack):
 
-Cevap:
-
- Yığın (Stack):
-
-Yığın, son giren ilk çıkar (Last In First Out - LIFO-) prensibine göre çalışır.
-Elemanlar yığına üst üste eklenir ve en son eklenen eleman en üstte bulunur. (top)
-Elemanlar sadece en üstten çıkarılabilir ve altta kalan elemanlara erişim sağlanmaz.
-Yığın, bir yığından eleman çıkarmak (pop) veya eklemek (push) için kullanılır.
-Örneğin => fonksiyon çağrıları, derleme işlemleri ve geri alma (undo) işlemleri gibi senaryolarda da yığın kullanılabilir.
+YÄ±ÄŸÄ±n, son giren ilk Ã§Ä±kar (Last In First Out - LIFO-) prensibine gÃ¶re Ã§alÄ±ÅŸÄ±r.
+Elemanlar yÄ±ÄŸÄ±na Ã¼st Ã¼ste eklenir ve en son eklenen eleman en Ã¼stte bulunur. (top)
+Elemanlar sadece en Ã¼stten Ã§Ä±karÄ±labilir ve altta kalan elemanlara eriÅŸim saÄŸlanmaz.
+YÄ±ÄŸÄ±n, bir yÄ±ÄŸÄ±ndan eleman Ã§Ä±karmak (pop) veya eklemek (push) iÃ§in kullanÄ±lÄ±r.
+Ã–rneÄŸin => fonksiyon Ã§aÄŸrÄ±larÄ±, derleme iÅŸlemleri ve geri alma (undo) iÅŸlemleri gibi senaryolarda da yÄ±ÄŸÄ±n kullanÄ±labilir.
 
 Kuyruk (Queue):
 
-Kuyruk, ilk giren ilk çıkar (First In First Out - FIFO-) prensibine göre çalışır.
-Elemanlar kuyruğun sonuna eklenir ve en önce eklenen eleman en başta (front) bulunur.
-Elemanlar sadece kuyruğun başından çıkarılabilir ve sona eklenen elemanlara erişim sağlanamaz.
-Kuyruk, bir kuyruktan eleman çıkarmak (dequeue) veya eklemek (enqueue) için kullanılır.
-Örnegin, işlem sıralamaları, müşteri hizmetleri sıralaması ve veri akışı gibi senaryolarda kuyruk kullanılabilir.
+Kuyruk, ilk giren ilk Ã§Ä±kar (First In First Out - FIFO-) prensibine gÃ¶re Ã§alÄ±ÅŸÄ±r.
+Elemanlar kuyruÄŸun sonuna eklenir ve en Ã¶nce eklenen eleman en baÅŸta (front) bulunur.
+Elemanlar sadece kuyruÄŸun baÅŸÄ±ndan Ã§Ä±karÄ±labilir ve sona eklenen elemanlara eriÅŸim saÄŸlanamaz.
+Kuyruk, bir kuyruktan eleman Ã§Ä±karmak (dequeue) veya eklemek (enqueue) iÃ§in kullanÄ±lÄ±r.
+Ã–rnegin, iÅŸlem sÄ±ralamalarÄ±, mÃ¼ÅŸteri hizmetleri sÄ±ralamasÄ± ve veri akÄ±ÅŸÄ± gibi senaryolarda kuyruk kullanÄ±labilir.
 
-Yığın ve Kuyruk arasındaki farklılıklar:
+YÄ±ÄŸÄ±n ve Kuyruk arasÄ±ndaki farklÄ±lÄ±klar:
 
-Ekleme ve Çıkarmada Sıralama: Yığın son giren ilk çıkar (LIFO) prensibine göre çalışırken, kuyruk ilk giren ilk çıkar (FIFO) prensibine göre çalışır.
-Erişim: Yığında, sadece en üstteki elemana erişilebilir ve çıkarılabilir. Kuyrukta ise, sadece en baştaki elemana erişilebilir ve çıkarılabilir.
-İşlem Sırası: Yığında eklenen en son eleman, çıkartılan ilk elemandır. Kuyrukta ise eklenen en önceki eleman, çıkartılan ilk elemandır.
-Uygulama Senaryoları: Yığın, geri alma işlemleri, derinlik öncelikli arama (Depth-First Search) gibi senaryolarda kullanılırken, kuyruk işlem sıralamaları, veri akışı gibi senaryolarda kullanılır.
-Bu farklılıklar, yığın ve kuyruğun farklı kullanım senaryolarına sahip olmalarını sağlar ve hangi veri yapısının tercih edileceğini belirleyen önemli bir faktördur.
+Ekleme ve Ã‡Ä±karmada SÄ±ralama: YÄ±ÄŸÄ±n son giren ilk Ã§Ä±kar (LIFO) prensibine gÃ¶re Ã§alÄ±ÅŸÄ±rken, kuyruk ilk giren ilk Ã§Ä±kar (FIFO) prensibine gÃ¶re Ã§alÄ±ÅŸÄ±r.
+EriÅŸim: YÄ±ÄŸÄ±nda, sadece en Ã¼stteki elemana eriÅŸilebilir ve Ã§Ä±karÄ±labilir. Kuyrukta ise, sadece en baÅŸtaki elemana eriÅŸilebilir ve Ã§Ä±karÄ±labilir.
+Ä°ÅŸlem SÄ±rasÄ±: YÄ±ÄŸÄ±nda eklenen en son eleman, Ã§Ä±kartÄ±lan ilk elemandÄ±r. Kuyrukta ise eklenen en Ã¶nceki eleman, Ã§Ä±kartÄ±lan ilk elemandÄ±r.
+Uygulama SenaryolarÄ±: YÄ±ÄŸÄ±n, geri alma iÅŸlemleri, derinlik Ã¶ncelikli arama (Depth-First Search) gibi senaryolarda kullanÄ±lÄ±rken, kuyruk iÅŸlem sÄ±ralamalarÄ±, veri akÄ±ÅŸÄ± gibi senaryolarda kullanÄ±lÄ±r.
+Bu farklÄ±lÄ±klar, yÄ±ÄŸÄ±n ve kuyruÄŸun farklÄ± kullanÄ±m senaryolarÄ±na sahip olmalarÄ±nÄ± saÄŸlar ve hangi veri yapÄ±sÄ±nÄ±n tercih edileceÄŸini belirleyen Ã¶nemli bir faktÃ¶rdur.
 
 
 
